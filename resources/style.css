@@ -1,0 +1,115 @@
+.subContainer {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+}
+.marginTop30{
+    margin-top:30px!important;
+}
+.input-container textarea {
+    background: #3c3c3c;
+    width: 90%;
+    resize: none;
+    color: #eeff00;
+    font-size: 12px;
+    padding: 5px;
+    height: 250px;
+}
+button#generateHtmlButton, button#generateCSSButton {
+    margin-top: 10px;
+    border: none;
+    background: green;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 100;
+    width: 90%;
+    text-align: left;
+    padding: 10px;
+}
+.input-container label {
+    font-size: 13px;
+    font-weight: 100;
+    width: 90%;
+}
+.textAreaContainer {
+    background: #f6f6f6;
+}
+
+.tab-container {
+    width: 100%;
+    display: none;
+}
+.tab-container-active {
+    display: inherit;
+}
+.tab-container-button {
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+}
+.tab-containers-selection-group {
+    display: table;
+    width: 90%;
+}
+.tab-container-button p {
+    font-size: 12px;
+    font-weight: 300;
+    border-bottom: 1px solid #3d3d3d;
+    padding-bottom: 5px;
+}
+.tab-container-button {
+    width: 50%;
+    display: table-cell;
+    text-align: center;
+    cursor: pointer;
+}
+.tab-container-button-active p {
+    color: #088001;
+}
+div#htmlOpenAIResponse {
+    padding: 30px;
+}
+.tab-container-controlpanel {
+    font-size: 12px;
+    font-weight: 100;
+}
+.tab-container-controlpanel div {
+    margin-left: 5px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.tab-container-controlpanel input {
+    background: #ebebeb;
+    border: none;
+    padding: 3px;
+    color: black;
+    text-align: right;
+}
+.tab-container.tab-container-controlpanel h3 {
+    font-size: 16px;
+    margin: 0;
+}
+.actionButtons.row {
+    text-align: center;
+    background: #f6f6f6;
+    vertical-align: middle;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.actionButtons.row button {
+    background: #3d3d3d;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 20px;
+}
+.actionButtons.row select {
+    background: #3d3d3d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 200;
+}

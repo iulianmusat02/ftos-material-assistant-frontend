@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./resources/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <style id="cssOpenAIResponse"></style>
+    <div class="row marginTop30">
+            <div class="col-lg-8 col-md-8 subContainer">
+                <div id="htmlOpenAIResponse"></div>
+            </div>
+            <div class="col-lg-4 col-md-4 subContainer textAreaContainer">
+                <div class="actionButtons row">
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <select id="uiComponentType">
+                            <option value="homepage" selected>Homepage</option>
+                            <option value="homepage">Form driven flow</option>
+                            <option value="homepage">Homepage</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                        <button id="insertUIComponent">Save</button>
+                    </div>
+                </div>
+                <div class="tab-containers-selection-group">
+                    <div class="tab-container-button-active tab-container-button" data-attr="openai"><p>OpenAI</p></div>
+                    <div class="tab-container-button" data-attr="controlpanel"><p>Control Panel</p></div>
+                </div>
+                <div class="tab-container tab-container-active tab-container-openai">
+                <div class="chatContainer">
+                    <div class="input-container">
+                        <label for="">Generate HTML</label><br>
+                        <textarea name="htmlOpenAIRequest" id="htmlOpenAIRequest"></textarea><br>
+                    </div>
+                    <button id="generateHtmlButton">Submit</button>
+                </div>
+                <div class="chatContainer marginTop30">
+                    <div class="input-container">
+                        <label for="">Generate CSS</label><br>
+                        <textarea name="cssOpenAIRequest" id="cssOpenAIRequest"></textarea><br>
+                    </div>
+                    <button id="generateCSSButton">Submit</button>
+                </div>
+            </div>
+            <div class="tab-container tab-container-controlpanel">
+                different content
+            </div>
+        </div>
+    </div>
+
+    <script src="./resources/index.js"></script>
+</body>
+
+</html>
